@@ -9,7 +9,7 @@ import NOResults from "@/components/ui/no-results";
 import ProductCard from "@/components/ui/product-card";
 import MobileFilter from "./components/MobileFilter";
 
-export const revlidate=0;
+export const revalidate=0;
 const CategoryPage =async ({params,searchParams}) => {
     const products=await getProducts({
         categoryId: params.categoryId,
